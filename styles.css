@@ -100,3 +100,13 @@ body::-webkit-scrollbar-thumb {
     width: 70%;
     margin: 10rem auto;
 }
+
+.content h2 {
+    padding: 3rem 0;
+}
+
+.content p {
+    padding: 3rem 0;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+}
