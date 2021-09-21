@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-:root {
-    --bg-sticky: rgba(171, 143, 255, 0.7);
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
 }
 
 body::-webkit-scrollbar {
@@ -96,30 +95,47 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content {
-    position: relative;
     width: 70%;
     margin: 10rem auto;
 }
 
-
 .content h2 {
-    padding-top: 5rem;
-    padding-bottom: 0.4rem;
-    font-size: 2rem;
-    letter-spacing: 0.8rem;
+    font-size: xx-large;
+    padding-bottom: 1rem;
 }
 
 .content h4 {
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    color: rgba(0, 0, 0, 0.4);
 }
 
-.content p {
+.content .wine_p {
+    width: 50%;
     letter-spacing: 0.05rem;
-    line-height: 1.9rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    font-size: medium;
+}
+
+.content a {
+    text-decoration: none;
+    color:  rgba(86, 7, 12, 0.95);
+    font-weight: bold;
 }
 
 .content .content_wine {
-    height: 20rem;
-    padding-top: 2rem;
+    width: 40%;
     float: right;
+}
+
+.content .winery_p {
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    padding-bottom: 2rem;
+}
+
+.content .content_winery {
+    width: 50%;
+    float: left;
+    padding-right: 4rem;
 }
