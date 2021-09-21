@@ -39,6 +39,7 @@ body::-webkit-scrollbar-thumb {
 .nav_bar .nav_links{
     display: flex;
     list-style: none;
+    overflow: hidden;
 }
 
 .nav_links li {
@@ -176,36 +177,34 @@ footer p{
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 900px) {
 
+@media screen and (max-width: 1000px) {
+    
     body {
         overflow-x: hidden;
     }
-
+    
     .nav_links {
         position: absolute;
         right: 0px;
         height: 98vh;
         width: 100vh;
         top: 0vh;
-        background-color: rgba(86, 7, 12, 0.95);
+        background-color: rgb(86, 7, 12);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: 0.5s ease-in;
+        opacity: 0;
+        visibility: hidden;
     }
-
+    
     .nav_links li {
         opacity: 0;
     }
-
+    
     .menu {
         display: block;
     }
-}
-
-.nav_active {
-    transform: translateX(0%);
 }
