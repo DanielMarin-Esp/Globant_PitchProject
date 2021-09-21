@@ -132,10 +132,31 @@ body::-webkit-scrollbar-thumb {
     line-height: 2rem;
     letter-spacing: 0.05rem;
     padding-bottom: 2rem;
+    padding-left: rem;
 }
 
 .content .content_winery {
     width: 50%;
     float: left;
     padding-right: 4rem;
+}
+
+.content {
+    width: clamp(600px, 50%, 1080px);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(189, 169, 144);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+footer h3 {
+    padding-bottom: 2rem;
+}
+
+footer p{
+    padding-bottom: 1rem;
 }
