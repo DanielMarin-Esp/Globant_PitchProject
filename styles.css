@@ -102,11 +102,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content h2 {
-    padding: 3rem 0;
+    padding: 0.8rem 0;
+}
+
+.content h4 {
+    padding-bottom: 3rem;
 }
 
 .content p {
-    padding: 3rem 0;
     letter-spacing: 0.05rem;
     line-height: 1.5rem;
 }
